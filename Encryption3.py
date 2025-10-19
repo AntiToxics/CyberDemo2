@@ -1,11 +1,12 @@
 """
 Author: Gilad Elran
-Program name: Message Encryptor/Decryptor
+Program name: Enryption3.py
 Description:
     This program can encrypt or decrypt text messages based on a given table.
     - If run with the argument "encrypt", it asks the user for a message,
       encrypts it, and saves it to msg_encrypted.txt.
     - If run with the argument "decrypt", it reads the file and decrypts the message.
+    - If there is an invalid argument the program will not decrypt nor encrypt.
     The program assumes all characters appear in the table.
 
 Date: 2025-10-09
@@ -172,3 +173,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     main()
+
